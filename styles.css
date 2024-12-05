@@ -1,0 +1,54 @@
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 5px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 150px;
+    font-size: 100px;
+    color: white;
+    cursor: pointer;
+    background-image: url(wood.jpg);
+    border-color: white;
+
+
+
+}
+.title {
+    background-color: rgb(148, 52, 243);
+    margin: auto;
+    font-size: 45px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(230, 230, 230);
+    font-style: italic;
+    text-shadow: 3px 3px 1px rgb(255, 81, 0);
+    
+}
+#gameContainer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid;
+    padding: 20px;
+    overflow: hidden;
+    background: rgb(64, 24, 129);
+    color: white;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+    margin: auto;
+    color: white;
+    
+}
+button{
+    font-size: 45px;
+    border-radius: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px orange;
+
+
+}
